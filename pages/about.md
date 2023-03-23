@@ -7,6 +7,8 @@ title: 关于我
 
 该博客托管于 GitHub Page，国内解析到腾讯云对象存储，以保证国内外的访问速度，留言页面使用腾讯的“吐个槽”
 
+主题是Tmaize写的，见[tmaize-blog](https://github.com/TMaize/tmaize-blog)，喜欢的话可以给ta个小星星。
+
 
 ## 相关技能
 
