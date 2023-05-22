@@ -366,7 +366,8 @@ Request ID: 1f0701a283b6c576374beb247a5ac460
 
 #### trace_pipe日志输出
 
-```root@debian-qelzsmjskk-192.168.2.5 ~/lb-from-scratch # cat /sys/kernel/debug/tracing/trace_pipe
+```
+root@debian-qelzsmjskk-192.168.2.5 ~/lb-from-scratch # cat /sys/kernel/debug/tracing/trace_pipe
 
 <idle>-0       [000] d.s. 524761.663419: bpf_trace_printk: Got http requset from 60011ac
 <idle>-0       [001] d.s. 524762.623046: bpf_trace_printk: Got the http response from backend [30011ac]: forward to client 20011ac
