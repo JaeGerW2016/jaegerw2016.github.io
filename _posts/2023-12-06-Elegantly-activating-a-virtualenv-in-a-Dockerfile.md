@@ -187,7 +187,7 @@ CMD . /opt/venv/bin/activate && exec python app.py
 
 
 
-```
+```dockerfile
 FROM python:3.11.7-slim-bookworm
 
 ENV VIRTUAL_ENV=/opt/venv
