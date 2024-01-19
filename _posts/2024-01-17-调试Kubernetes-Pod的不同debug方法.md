@@ -263,7 +263,7 @@ debugpod(){
 		for pod in "${pods[@]}"; do 
 			pod_uid=`kubectl get -n ${namespace} pod ${pod} -o jsonpath='{.metadata.uid}' | sed 's/-/_/g'`
 			pod_qos=`kubectl get -n ${namespace} pod ${pod} -o jsonpath='{.status.qosClass}'| tr '[:upper:]' '[:lower:]'`
-							     pod_path="/sys/fs/cgroup/kubepods.slice/kubepods-${pod_qos}.slice/kubepods-${pod_qos}-pod${pod_uid}.slice"
+			pod_path="/sys/fs/cgroup/kubepods.slice/kubepods-${pod_qos}.slice/kubepods-${pod_qos}-pod${pod_uid}.slice"
 
 			procs_a=`cat ${pod_path}/cri-containerd-*/cgroup.procs | head -n 1`
 			procs_b=`cat ${pod_path}/cri-containerd-*/cgroup.procs | tail -n 1`
