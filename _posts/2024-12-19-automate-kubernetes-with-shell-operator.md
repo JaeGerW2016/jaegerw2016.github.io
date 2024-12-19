@@ -231,7 +231,14 @@ docker push your-dockerhub-username/shell-operator-hooks:v1
 
 ## 部署shell operator到Kubernetes集群
 
+生成secret
 
+```
+#define your owen slack channel url
+kubectl create secret generic webhook-secret --from-literal=webhook-url=https://hooks.slack.com/services/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+`shell-operator.yaml`
 ```
 apiVersion: v1
 kind: ServiceAccount
