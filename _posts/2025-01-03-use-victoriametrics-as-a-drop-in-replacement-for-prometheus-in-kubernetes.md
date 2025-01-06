@@ -607,7 +607,7 @@ VMetrics 自身支持简易的vmui 可以在配置阶段辅助排查问题, 只�
 
 ### Grafana Dashboard About Windows Node Metrics
 
-![Picture-20250106122805](https://youjb.com/images/2025/01/06/QQ20250106122805d4bcec1ce7458db6.png)![Picture 20250106123521](https://youjb.com/images/2025/01/06/Picture-202501061235217d91ad6962344993.png)
+![Picture 20250106123521](https://youjb.com/images/2025/01/06/Picture-202501061235217d91ad6962344993.png)
 
 
 ## 总结 
