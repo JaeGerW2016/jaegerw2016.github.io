@@ -29,7 +29,7 @@ VictoriaMetrics在内存使用效率方面表现优异，能够在相同的硬�
 ## 配置步骤
 
 
-由于篇幅限制,我这边就以 VictoriaMetrics singel 单节点模式替代 Prometheus 来实现监控`wmi_exporter`的Metrics指标, 并在Grafana 展示Dashboard
+由于篇幅限制,我这边就以 VictoriaMetrics Single Mode 替代 Prometheus 来实现监控`wmi_exporter`的Metrics指标, 并在Grafana 展示Dashboard
 
 
 `vmetrics-single-values.yaml`
@@ -476,7 +476,7 @@ spec:
             storage: 16Gi
 ```
 
-> Tips: 如果需要新增额外的ScrapeConfigs时,直接修改configmap无法被VictoriaMetrics识别生效,这时需要先定义`extraScrapeConfigs.yaml`, 然后`helm upgrade --install -n vm-single vmsingle vm/victoria-metrics-single --set server.scrape.enable=true --set-file server.scrape.extraScrapeConfigs=extraScrapeConfigs.yaml` 来追加额外的监控项
+> Tips: 如果需要新增额外的ScrapeConfigs时,直接修改configmap无法被VictoriaMetrics识别生效,这时需要先定义`extraScrapeConfigs.yaml`, 然后`helm upgrade --install -n vm-single vmsingle vm/victoria-metrics-single --set server.scrape.enable=true --set-file server.scrape.extraScrapeConfigs=extraScrapeConfigs.yaml` 来追加额外的监控项, 详细可参考 [issues](https://github.com/VictoriaMetrics/helm-charts/issues/251)
 
 `grafana-value.yaml`
 
