@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: kubernetes证书手动续期操作
-categories: [database, docker, kubernetes, networking, security, servicemesh]
+categories: [kubernetes, docker]
 ---
 
 Kubernetes证书手动续期操作

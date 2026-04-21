@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Service Topology 服务拓扑
-categories: [cloud, database, kubernetes, linux, monitoring, networking, servicemesh, storage]
+categories: [kubernetes, linux]
 ---
 
 # Service Topology 服务拓扑

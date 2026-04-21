@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 对TCP连接中TIME_WAIT的理解及对高并发的调优实践
-categories: [cloud, kubernetes, linux, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
+categories: [kubernetes, linux]
 ---
 
 最近在给 Gateway API网关做压测，模拟高并发的场景下，TCP连接状态中会出现批量的TIME_WAIT状态的连接

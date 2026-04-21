@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 深入了解 Kubernetes Init 容器
-categories: [cloud, database, docker, kubernetes, linux, monitoring, networking, performance, security, storage, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 # 深入了解 Kubernetes Init 容器

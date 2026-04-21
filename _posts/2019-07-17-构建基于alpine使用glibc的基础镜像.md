@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 构建基于alpine使用gnu libc的基础镜像
-categories: [devops, docker, linux, security, storage, troubleshooting, ebpf]
+categories: [docker, linux]
 ---
 
 简单介绍一下Alpine版本中的musl libc和gnu libc的设定

@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 在Kubernetes中实现零停机部署
-categories: [database, devops, docker, kubernetes, linux, monitoring, networking, servicemesh, storage]
+categories: [kubernetes, docker]
 ---
 
 多年来，Kubernetes 已成为容器编排的首选平台。默认情况下，Kubernetes 使用滚动更新策略（rolling update ）进行部署。此策略旨在防止停机，确保某些容器实例在执行更新时随时启动并运行。只有在新版本的容器准备好接收实时流量后，旧版本的容器才会关闭。

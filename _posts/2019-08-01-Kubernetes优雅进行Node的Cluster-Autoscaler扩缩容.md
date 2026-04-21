@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes优雅进行Node的Cluster-Autoscaler扩缩容
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 # Kubernetes优雅进行Node的Cluster-Autoscaler扩缩容

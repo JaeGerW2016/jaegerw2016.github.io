@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 在Kubernetes上安全地构建容器镜像
-categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 在我们安全地在Kubernetes上构建和推拉容器镜像之前，我想分享一些有关容器术语的想法。我通常将在Kubernetes Pod中作为容器运行的镜像称为**容器镜像**而不是**Docker镜像**。

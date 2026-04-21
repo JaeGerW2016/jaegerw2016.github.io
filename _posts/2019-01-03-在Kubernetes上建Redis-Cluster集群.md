@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 在Kubernetes上建Redis Cluster集群
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ###文档说明

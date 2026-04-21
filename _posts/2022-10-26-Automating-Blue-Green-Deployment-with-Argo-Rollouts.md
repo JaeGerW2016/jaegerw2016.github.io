@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes实践——使用 Argo Rollouts 自动化蓝/绿部署
-categories: [cloud, database, devops, kubernetes, linux, monitoring, networking, performance, security, storage]
+categories: [kubernetes, linux]
 ---
 
 ## 什麼是Argo Rollouts

@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Openssl 在Ubuntu 22.04上升级报错
-categories: [devops, kubernetes, linux, networking, security, servicemesh, storage, troubleshooting]
+categories: [kubernetes, linux]
 ---
 
 ## 背景

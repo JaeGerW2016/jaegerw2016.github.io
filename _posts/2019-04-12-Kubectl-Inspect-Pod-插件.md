@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubectl Inspect Pod 插件
-categories: [cloud, database, devops, kubernetes, linux, networking, performance, security, servicemesh, storage, troubleshooting]
+categories: [kubernetes, linux]
 ---
 
 虽然目前还没有像标题所示的`kubectl inspect` command，但kubectl现在有一个新重新设计的插件系统，它允许您轻松创建自己的检查命令并让它做任何你想做的事情

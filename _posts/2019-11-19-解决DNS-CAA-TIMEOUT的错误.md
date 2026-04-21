@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: letsencrypt-auto自动续期报错
-categories: [kubernetes, linux, networking, security, storage, troubleshooting]
+categories: [kubernetes, linux]
 ---
 
 昨天使用**letsencrypt-auto**续期证书，输入`letsencrypt-auto renew`，没出现预期的“Congratulations, all renewals succeeded.”，而是意外的**“DNS problem: query timed out looking up CAA for jaeger.tk”**。咦，怎么突然就出错了呢？

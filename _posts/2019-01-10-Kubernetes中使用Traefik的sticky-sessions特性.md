@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes中使用Traefik的sticky sessions特性
-categories: [cloud, kubernetes, linux, networking, troubleshooting]
+categories: [kubernetes, linux]
 ---
 
 ### 背景

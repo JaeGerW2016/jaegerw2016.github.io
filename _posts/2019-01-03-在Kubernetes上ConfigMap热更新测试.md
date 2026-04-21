@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 在Kubernetes上ConfigMap热更新测试
-categories: [cloud, devops, docker, kubernetes, linux, networking, storage, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ### 文档说明

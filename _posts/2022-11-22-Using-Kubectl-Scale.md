@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubectl Scale的最佳实践
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 kubectl `scale` 是帮助您管理 Kubernetes Deployment的众多工具之一。

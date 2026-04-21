@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes 多组Pod映射到单个svc服务
-categories: [cloud, database, devops, kubernetes, linux, networking, security]
+categories: [kubernetes, linux]
 ---
 
 # 背景

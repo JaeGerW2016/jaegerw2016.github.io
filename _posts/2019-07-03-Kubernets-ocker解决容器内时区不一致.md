@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernets/Docker解决容器内时区不一致
-categories: [cloud, database, docker, kubernetes, linux, monitoring, security, storage, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 ## 1、背景介绍

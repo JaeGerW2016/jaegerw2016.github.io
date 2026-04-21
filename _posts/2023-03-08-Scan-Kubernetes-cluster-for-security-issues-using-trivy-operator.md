@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 使用Trivy Operator 扫描Kubernetes集群安全
-categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, servicemesh, storage, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 ## 前言

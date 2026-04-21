@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes StatefulSet的滚动升级
-categories: [database, devops, docker, kubernetes, monitoring, networking, performance, storage, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 ## 扩容/缩容 StatefulSet

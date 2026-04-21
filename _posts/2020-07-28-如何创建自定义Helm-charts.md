@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 如何创建自定义Helm charts
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, servicemesh, storage, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 #### TL；DR 摘要标题

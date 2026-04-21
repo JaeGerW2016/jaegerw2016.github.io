@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Hello Istio
-categories: [cloud, database, devops, kubernetes, monitoring, networking, performance, security, servicemesh, storage, troubleshooting]
+categories: [kubernetes, networking]
 ---
 
 ## HELLO ISTIO

@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes教程：Prometheus-operator服务发现
-categories: [database, docker, kubernetes, linux, monitoring, networking, security, servicemesh, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ## target发现失败

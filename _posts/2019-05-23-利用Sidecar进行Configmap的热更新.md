@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 利用Sidecar进行Configmap的热更新
-categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ### ConfigMap概览

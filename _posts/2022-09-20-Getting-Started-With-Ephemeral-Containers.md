@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Ephemeral Containers容器入门
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 # 背景

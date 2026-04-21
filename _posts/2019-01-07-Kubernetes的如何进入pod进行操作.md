@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes的如何进入pod进行操作
-categories: [docker, kubernetes, linux]
+categories: [kubernetes, docker]
 ---
 
 首先类似于Docker容器，Kubernetes 使用kubectl 进行命令行操作

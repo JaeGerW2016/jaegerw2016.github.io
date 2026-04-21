@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes NetworkPolicy 探秘
-categories: [cloud, kubernetes, linux, networking, performance, security, ebpf]
+categories: [kubernetes, linux]
 ---
 
 ### 网络策略

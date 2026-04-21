@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 使用slack来接收AlertManager的告警信息
-categories: [cloud, database, kubernetes, linux, monitoring, networking, performance, security, troubleshooting, ebpf]
+categories: [kubernetes, linux]
 ---
 
 在国内，大部分公司的员工目前在办公时用的沟通工具仍是邮件、QQ或者微信，文件会放到共享文件夹，或者用邮件、即时通讯工具来传输。而邮件使用起来比较费劲，没有即时性，而QQ和微信会让我们把生活与工作混在一起，降低做事效率，很多人在工作的时候还经常刷朋友圈、看QQ空间，这都是不好的现象。国外的现象跟国内也是大同小异。

@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: CPUThrottlingHigh告警引出的kubernetes的CPU管理策略
-categories: [database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ### 背景

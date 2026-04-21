@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 专用的Node自定义准入控制器Dedicate-toleration-webhook
-categories: [cloud, devops, docker, kubernetes, linux, networking, performance, storage]
+categories: [kubernetes, docker]
 ---
 
 如果您想要设置一些 node 为专用的，以让特定的用户才能使用，或者具有特定标签的应用使用，这里就需要涉及Taints和Toleration来引到Pod远离pod或者调度具有特定标签的应用pod到Node上

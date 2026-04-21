@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 如何启用PSP使用Traefik Ingress Controller
-categories: [cloud, database, docker, kubernetes, linux, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 如何启用PSP使用Traefik Ingress Controller

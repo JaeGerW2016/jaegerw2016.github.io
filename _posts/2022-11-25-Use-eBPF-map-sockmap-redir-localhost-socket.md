@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: eBPF系列-ebpf map之使用sockmap提升本地socket转发
-categories: [kubernetes, linux, monitoring, networking, performance, servicemesh, storage, troubleshooting, ebpf]
+categories: [kubernetes, linux]
 ---
 
 ## eBPF map Introduction

@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 使用Prometheus监视KubernetesInitContainer
-categories: [devops, docker, kubernetes, monitoring, performance, storage, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 Kubernetes InitContainers是在容器启动之前运行任意代码的一种简便方法。它可以确保在启动和运行应用程序之前满足某些前提条件。

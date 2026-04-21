@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 为您的应用程序指定PodDisruptionBudget
-categories: [cloud, database, devops, kubernetes]
+categories: [kubernetes, devops]
 ---
 
 ## 背景概念

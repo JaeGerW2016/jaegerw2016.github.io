@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes笔记 ResourceQuotas和LimitRange
-categories: [cloud, database, docker, kubernetes, linux, networking, performance, security, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 当多个用户或团队共享具有固定数目节点的集群时，人们会担心有人使用的资源超出应有的份额。

@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: nf_conntrack races 引发的DNS lookup timeouts问题
-categories: [cloud, devops, docker, kubernetes, linux, networking, performance, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 之前一篇关于Alpine的基础镜像使用的注意事项中有一个`DNS`解析异常，这个跟是否使用`musl libc`库或者是`gnu libc`库没有关系

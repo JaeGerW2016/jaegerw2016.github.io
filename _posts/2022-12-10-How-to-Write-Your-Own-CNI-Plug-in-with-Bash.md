@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes 网络模型——如何使用Bash编写CNI网络插件
-categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ## Kubernetes 网络模型

@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: KubernetesDeployment滚动更新机制
-categories: [cloud, database, devops, kubernetes, linux, networking, performance, storage, troubleshooting]
+categories: [kubernetes, linux]
 ---
 
 ## 摘要

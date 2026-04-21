@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: eBPF入门-简单的 eBPF 版本的 Hello eBPF World
-categories: [cloud, linux, security, servicemesh, troubleshooting, ebpf]
+categories: [linux, security]
 ---
 
 ## 什么是 eBPF

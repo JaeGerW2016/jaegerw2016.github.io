@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernets教程：根据Container ID 获取PID对其进行抓包
-categories: [cloud, database, docker, kubernetes, linux, networking, security, storage, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 在管理 `Kubernetes` 集群的过程中，我们经常会遇到这样一种情况：碰到一些复杂的故障问题需要我们深入底层网络层进行抓包分析报文的时候，需要我们对进出容器的网络报文进行抓取，如果熟悉容器的原理的话，就会知道容器其实就是一些特殊的进程，对容器进行网络抓包就是对进程进行抓包，知道这个之后就可以在容器所在的宿主机上进行`tcpdump`抓包分析报文

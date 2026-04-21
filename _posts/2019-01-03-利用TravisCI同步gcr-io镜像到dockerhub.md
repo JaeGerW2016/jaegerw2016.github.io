@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 利用TravisCI同步gcr.io镜像到dockerhub
-categories: [cloud, devops, docker, kubernetes, linux, networking, security, storage]
+categories: [kubernetes, docker]
 ---
 
 前期准备

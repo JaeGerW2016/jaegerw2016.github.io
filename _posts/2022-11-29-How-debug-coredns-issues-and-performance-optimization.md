@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes故障排除——如何调试CoreDNS及CoreDNS性能优化
-categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ## 概述

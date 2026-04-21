@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes的Pod调度算法
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, storage]
+categories: [kubernetes, docker]
 ---
 
 ### Kubernetes的Pod调度算法

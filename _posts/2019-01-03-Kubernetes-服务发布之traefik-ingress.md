@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes 服务发布之traefik ingress
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 # 介绍

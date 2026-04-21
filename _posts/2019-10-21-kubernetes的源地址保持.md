@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: kubernetes的源地址保持sourceIP
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, servicemesh, storage, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 ## Prerequisites

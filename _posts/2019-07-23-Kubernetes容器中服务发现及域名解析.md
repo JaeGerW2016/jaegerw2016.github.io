@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes容器中服务发现及域名解析
-categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 在 Kubernetes 中，服务发现有几种方式：

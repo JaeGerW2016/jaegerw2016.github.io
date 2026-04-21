@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 使用 Minikube 创建 Kubernetes 集群
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, servicemesh, storage]
+categories: [kubernetes, docker]
 ---
 
 ## 什么是 Minikube？

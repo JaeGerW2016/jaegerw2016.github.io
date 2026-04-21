@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: K8S基于RBAC认证安装配置CoreDNS
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ###文档说明

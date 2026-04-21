@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 在Kubernetes上部署EFK服务
-categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ### 文档说明

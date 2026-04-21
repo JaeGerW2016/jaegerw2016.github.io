@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 如何在Kubernetes中使用Envoy作为负载均衡器
-categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, servicemesh, storage, troubleshooting]
+categories: [kubernetes, docker]
 ---
 
 在如今高度分布式的世界中，单主机架构越来越多地被多个更小的微服务架构所取代（无论好坏），代理和负载均衡技术似乎有了复兴。除之前经典技术了之外，近年来还出现了几种新的代理技术，这些技术以各种技术实现，通过不同的功能推广自己，例如轻松集成到某些云提供商（“云原生”），高性能和低内存占用，或动态配置。

@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes集群升级容器运行时containerd到最新版本
-categories: [cloud, database, docker, kubernetes, linux, networking, security, storage, ebpf]
+categories: [kubernetes, docker]
 ---
 
 # 背景

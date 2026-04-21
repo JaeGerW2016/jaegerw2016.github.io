@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes集群中使用NodeLocal DNSCache
-categories: [database, devops, kubernetes, linux, networking, performance, servicemesh, storage, troubleshooting]
+categories: [kubernetes, linux]
 ---
 
 ### 介绍

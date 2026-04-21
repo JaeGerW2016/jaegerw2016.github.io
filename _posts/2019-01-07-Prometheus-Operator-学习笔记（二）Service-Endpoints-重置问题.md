@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Prometheus Operator 学习笔记（二）Service Endpoints 重置问题
-categories: [database, kubernetes, linux, monitoring, networking, performance, storage, troubleshooting, ebpf]
+categories: [kubernetes, linux]
 ---
 
 ### 文档说明

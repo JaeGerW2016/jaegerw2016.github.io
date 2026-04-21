@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes 节点OutOfDisk 状态Unknown问题排查
-categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, servicemesh, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ```shell

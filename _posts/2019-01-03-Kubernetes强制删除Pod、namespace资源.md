@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes强制删除Pod、namespace资源
-categories: [database, kubernetes, linux, storage]
+categories: [kubernetes, linux]
 ---
 
 #### Kubernetes中强制删除Pod、namespace

@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Prometheus Operator 学习笔记
-categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, storage, troubleshooting, ebpf]
+categories: [kubernetes, docker]
 ---
 
 ### 文档说明
