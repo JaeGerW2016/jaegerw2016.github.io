@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: 在Kubernetes环境下本地部署FastGPT完整指南
+title: Complete Guide to Deploying FastGPT on Kubernetes
 categories: [kubernetes,devops]
 ---
 
