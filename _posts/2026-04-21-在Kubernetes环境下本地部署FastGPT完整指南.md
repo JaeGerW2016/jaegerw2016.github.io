@@ -467,6 +467,52 @@ spec:
     app: fastgpt-minio
 ```
 
+**MinIO LoadBalancer Service（用于外部访问）**
+
+FastGPT 需要通过 `STORAGE_EXTERNAL_ENDPOINT` 环境变量访问 MinIO 的外部地址。创建一个 LoadBalancer 类型的 Service 来暴露 MinIO：
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: fastgpt-minio-lb
+  namespace: fastgpt
+spec:
+  type: LoadBalancer
+  ports:
+    - name: "9000"
+      port: 9000
+      targetPort: 9000
+  selector:
+    app: fastgpt-minio
+```
+
+应用 LoadBalancer Service：
+
+```bash
+kubectl apply -f fastgpt-minio-service-lb.yaml
+```
+
+等待 LoadBalancer 分配外部 IP：
+
+```bash
+kubectl get svc fastgpt-minio-lb -n fastgpt
+```
+
+输出示例：
+
+```
+NAME                TYPE           CLUSTER-IP       EXTERNAL-IP      PORT(S)          AGE
+fastgpt-minio-lb    LoadBalancer   10.96.123.45     192.168.2.147    9000/TCP         2m
+```
+
+记录下 `EXTERNAL-IP` 的值（例如：`192.168.2.147`），这个地址将用于配置 `STORAGE_EXTERNAL_ENDPOINT` 环境变量。
+
+**注意**：
+- 如果使用云服务商的 Kubernetes（如 AWS、GKE、AKS），LoadBalancer 会自动分配公网 IP
+- 如果使用本地 Kubernetes（如 minikube、k3s），可能需要使用 NodePort 或 MetalLB 来获取外部 IP
+- 如果使用 NodePort，可以使用 `kubectl get nodes -o wide` 获取节点 IP，然后使用 `节点IP:NodePort` 格式
+
 #### 4. 部署应用配置
 
 创建 ConfigMap 来存储 FastGPT 的配置：
