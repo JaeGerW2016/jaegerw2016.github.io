@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: 使用ebpf的XDP来创建一个简单L4负载均衡
+categories: [linux, networking]
 ---
 
 ### 什么是 eBPF XDP

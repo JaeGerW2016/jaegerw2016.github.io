@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: Prometheus operator additional scrape configuration 配置
+categories: [kubernetes, monitoring]
 ---
 
 ## 背景

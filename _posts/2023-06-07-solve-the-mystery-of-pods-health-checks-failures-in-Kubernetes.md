@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes中Pod health checks失败排查
+categories: [kubernetes, troubleshooting]
 ---
 
 ## 背景

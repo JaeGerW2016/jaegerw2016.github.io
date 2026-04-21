@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: 使用tcpdump从K8s工作节点捕获容器数据包
+categories: [kubernetes, networking]
 ---
 
 这篇博文将向您展示如何从K8s Node节点捕获容器数据包。

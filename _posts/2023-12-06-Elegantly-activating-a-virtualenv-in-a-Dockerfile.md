@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: 如何在Dockerfile中优雅地激活virtualenv
+categories: [docker, devops]
 ---
 
 ## 背景

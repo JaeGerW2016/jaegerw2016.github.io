@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: 使用Tetragon在Kubernetes进行eBPF日志分析
+categories: [kubernetes, ebpf]
 ---
 
 ## 简介

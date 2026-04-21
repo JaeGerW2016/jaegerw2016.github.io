@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: 如何在 Kubernetes 集群上部署 Uptime-Kuma
+categories: [kubernetes, monitoring]
 ---
 
 Uptime-Kuma 一个开源免费的监控工具 Uptime Kuma, 简单实用, 主要用来监控 Web 和网络, 和 Prometheus 不一样的是, 它是轻量的, 基于Node.js 和 Vue 3 开发, 你可以在 github 找到它

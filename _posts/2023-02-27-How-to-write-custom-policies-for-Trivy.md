@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: 如何为 Trivy 编写自定义策略
+categories: [docker, security]
 ---
 
 ## 前言

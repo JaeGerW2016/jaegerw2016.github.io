@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: 使用 Sigstore 和 Kyverno 来签名和验证图像保护CI/CD Pipeline
+categories: [kubernetes, security]
 ---
 
 ## 背景

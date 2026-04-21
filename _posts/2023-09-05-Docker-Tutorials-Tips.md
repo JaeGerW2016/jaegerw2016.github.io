@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: Docker Tutorials 你可能不知道的Docker 命令Tips
+categories: [docker, devops]
 ---
 
 分享一些在近期学习的简单实用却可能是你不知道的 docker 命令

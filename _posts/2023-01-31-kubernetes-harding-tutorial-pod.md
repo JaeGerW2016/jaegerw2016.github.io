@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: Kubernetes 安全加固之Pod安全
+categories: [kubernetes, security]
 ---
 
 ## Pod安全

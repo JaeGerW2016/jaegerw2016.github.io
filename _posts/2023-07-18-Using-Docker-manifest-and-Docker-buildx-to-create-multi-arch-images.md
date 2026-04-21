@@ -1,6 +1,7 @@
 ---
 layout: mypost
 title: 如何使用Docker Buildx构建多平台架构镜像
+categories: [docker, devops]
 ---
 
 ## 背景
