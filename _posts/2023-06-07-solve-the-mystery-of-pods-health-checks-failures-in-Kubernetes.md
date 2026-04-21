@@ -1,12 +1,6 @@
 ---
-layout:     post
-title:      Kubernetes中Pod health checks失败排查
-subtitle:   
-date:       2023-06-07
-author:     J
-catalog:    true
-tags:
-
+layout: mypost
+title: Kubernetes中Pod health checks失败排查
 ---
 
 ## 背景

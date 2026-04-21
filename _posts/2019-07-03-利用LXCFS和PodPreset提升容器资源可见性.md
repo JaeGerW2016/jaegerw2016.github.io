@@ -1,24 +1,7 @@
 ---
-layout:     post
-title:      利用LXCFS和PodPreset提升容器资源可见性
-subtitle:   
-date:       2019-07-03
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Networking
-    - Performance
-    - Security
-    - ServiceMesh
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: 利用LXCFS和PodPreset提升容器资源可见性
+categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
 ---
 
 ### LXCFS简介

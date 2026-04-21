@@ -1,12 +1,6 @@
 ---
-layout:     post
-title:      在 Jenkins 中使用 Trivy 进行容器扫描
-subtitle:   Container Scanning with Trivy in Jenkins
-date:       2023-02-20
-author:     J
-catalog:    true
-tags:
-
+layout: mypost
+title: 在 Jenkins 中使用 Trivy 进行容器扫描
 ---
 
 [Trivy](https://github.com/aquasecurity/trivy) 是个来自 Aqua Security的漏洞扫描系统，现已经被 Github Action、Harbor 等主流工具集成，能够非常方便的对镜像进行漏洞扫描，其扫描范围除了操作系统及其包管理系统安装的软件包之外，最近还加入了对 Ruby、PHP 等的漏洞检测，应该是该领域目前目前采用最广的开源工具之一了。

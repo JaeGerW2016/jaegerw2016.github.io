@@ -1,19 +1,7 @@
 ---
-layout:     post
-title:      Service Topology 服务拓扑
-subtitle:   了解Service流量走向
-date:       2020-04-01
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - ServiceMesh
-    - Storage
+layout: mypost
+title: Service Topology 服务拓扑
+categories: [cloud, database, kubernetes, linux, monitoring, networking, servicemesh, storage]
 ---
 
 # Service Topology 服务拓扑

@@ -1,22 +1,7 @@
 ---
-layout:     post
-title:      在Kubernetes上建Redis Cluster集群
-subtitle:   
-date:       2019-01-03
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Networking
-    - Performance
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: 在Kubernetes上建Redis Cluster集群
+categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, storage, troubleshooting, ebpf]
 ---
 
 ###文档说明

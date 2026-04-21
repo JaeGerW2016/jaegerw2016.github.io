@@ -1,16 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes中使用Traefik的sticky sessions特性
-subtitle:   
-date:       2019-01-10
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Kubernetes
-    - Linux
-    - Networking
-    - Troubleshooting
+layout: mypost
+title: Kubernetes中使用Traefik的sticky sessions特性
+categories: [cloud, kubernetes, linux, networking, troubleshooting]
 ---
 
 ### 背景

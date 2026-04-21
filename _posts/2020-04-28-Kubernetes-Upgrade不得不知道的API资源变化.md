@@ -1,17 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes Upgrade不得不知道的API资源变化
-subtitle:   Kubernetes升级：如何处理api变化
-date:       2020-04-27
-author:     J
-catalog:    true
-tags:
-    - DevOps
-    - Kubernetes
-    - Networking
-    - Performance
-    - Security
-    - ServiceMesh
+layout: mypost
+title: Kubernetes Upgrade不得不知道的API资源变化
+categories: [devops, kubernetes, networking, performance, security, servicemesh]
 ---
 
 随着Kubernetes 版本不断迭代发布，API会定期进行重组或升级。随着API的发展，旧的API会被弃用并最终被删除。

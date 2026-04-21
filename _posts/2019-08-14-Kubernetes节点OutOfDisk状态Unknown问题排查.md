@@ -1,24 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes 节点OutOfDisk 状态Unknown问题排查
-subtitle:   
-date:       2019-08-14
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - ServiceMesh
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: Kubernetes 节点OutOfDisk 状态Unknown问题排查
+categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, servicemesh, storage, troubleshooting, ebpf]
 ---
 
 ```shell

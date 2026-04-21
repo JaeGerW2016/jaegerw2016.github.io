@@ -1,12 +1,6 @@
 ---
-layout:     post
-title:      Kubernetes NodeLocalDNS loop 环形循环导致Pod异常重启
-subtitle:   
-date:       2023-11-15
-author:     J
-catalog:    true
-tags:
-
+layout: mypost
+title: Kubernetes NodeLocalDNS loop 环形循环导致Pod异常重启
 ---
 
 ## 背景

@@ -1,20 +1,7 @@
 ---
-layout:     post
-title:      Prometheus Operator 学习笔记（二）Service Endpoints 重置问题
-subtitle:   
-date:       2019-01-07
-author:     J
-catalog:    true
-tags:
-    - Database
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: Prometheus Operator 学习笔记（二）Service Endpoints 重置问题
+categories: [database, kubernetes, linux, monitoring, networking, performance, storage, troubleshooting, ebpf]
 ---
 
 ### 文档说明

@@ -1,24 +1,7 @@
 ---
-layout:     post
-title:      基于Custom Metrics API的CoreDns水平扩展
-subtitle:   
-date:       2019-05-13
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - ServiceMesh
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: 基于Custom Metrics API的CoreDns水平扩展
+categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, servicemesh, storage, troubleshooting]
 ---
 
 ## Metrics Server

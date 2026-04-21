@@ -1,12 +1,6 @@
 ---
-layout:     post
-title:      如何使用Docker Buildx构建多平台架构镜像
-subtitle:   
-date:       2023-07-18
-author:     J
-catalog:    true
-tags:
-
+layout: mypost
+title: 如何使用Docker Buildx构建多平台架构镜像
 ---
 
 ## 背景

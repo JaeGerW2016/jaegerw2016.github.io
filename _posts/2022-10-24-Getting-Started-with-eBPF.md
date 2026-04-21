@@ -1,17 +1,7 @@
 ---
-layout:     post
-title:      eBPF入门-简单的 eBPF 版本的 Hello eBPF World
-subtitle:   Getting Started with eBPF
-date:       2022-10-24
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Linux
-    - Security
-    - ServiceMesh
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: eBPF入门-简单的 eBPF 版本的 Hello eBPF World
+categories: [cloud, linux, security, servicemesh, troubleshooting, ebpf]
 ---
 
 ## 什么是 eBPF

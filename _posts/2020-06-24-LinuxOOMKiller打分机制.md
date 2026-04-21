@@ -1,19 +1,7 @@
 ---
-layout:     post
-title:      Linux OOM Killer打分机制
-subtitle:   OOM Killer如何选择杀死哪个进程
-date:       2020-06-24
-author:     J
-catalog:    true
-tags:
-    - Database
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: Linux OOM Killer打分机制
+categories: [database, linux, monitoring, networking, performance, security, storage, troubleshooting]
 ---
 
 当您的Linux机器内存**不足时**，内核会调用内存**OOM Killer**来释放一些内存。在运行大量内存密集型进程的服务器上经常会遇到这种情况。

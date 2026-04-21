@@ -1,23 +1,7 @@
 ---
-layout:     post
-title:      Ephemeral Containers容器入门
-subtitle:   Getting Started With Ephemeral Containers
-date:       2022-09-20
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Networking
-    - Performance
-    - Security
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: Ephemeral Containers容器入门
+categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, storage, troubleshooting, ebpf]
 ---
 
 # 背景

@@ -1,25 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes故障排除——如何调试CoreDNS及CoreDNS性能优化
-subtitle:   How to Debug CoreDNS Issues And Performance Optimization
-date:       2022-11-29
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - ServiceMesh
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: Kubernetes故障排除——如何调试CoreDNS及CoreDNS性能优化
+categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
 ---
 
 ## 概述

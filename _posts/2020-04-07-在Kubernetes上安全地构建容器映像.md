@@ -1,25 +1,7 @@
 ---
-layout:     post
-title:      在Kubernetes上安全地构建容器镜像
-subtitle:   运行容器并推拉容器镜像不再需要Docker
-date:       2020-04-07
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - ServiceMesh
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: 在Kubernetes上安全地构建容器镜像
+categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
 ---
 
 在我们安全地在Kubernetes上构建和推拉容器镜像之前，我想分享一些有关容器术语的想法。我通常将在Kubernetes Pod中作为容器运行的镜像称为**容器镜像**而不是**Docker镜像**。

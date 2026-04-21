@@ -1,24 +1,7 @@
 ---
-layout:     post
-title:      使用Trivy Operator 扫描Kubernetes集群安全
-subtitle:   Scan Kubernetes cluster for security issues using trivy operator
-date:       2023-03-08
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - ServiceMesh
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: 使用Trivy Operator 扫描Kubernetes集群安全
+categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, servicemesh, storage, troubleshooting]
 ---
 
 ## 前言

@@ -1,25 +1,7 @@
 ---
-layout:     post
-title:      在Kubernetes上部署EFK服务
-subtitle:   
-date:       2019-01-03
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - ServiceMesh
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: 在Kubernetes上部署EFK服务
+categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
 ---
 
 ### 文档说明

@@ -1,24 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes容器中服务发现及域名解析
-subtitle:   
-date:       2019-07-23
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: Kubernetes容器中服务发现及域名解析
+categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, storage, troubleshooting, ebpf]
 ---
 
 在 Kubernetes 中，服务发现有几种方式：

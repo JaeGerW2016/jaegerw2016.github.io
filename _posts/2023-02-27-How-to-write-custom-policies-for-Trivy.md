@@ -1,12 +1,6 @@
 ---
-layout:     post
-title:      如何为 Trivy 编写自定义策略
-subtitle:   How to write custom policies for Trivy
-date:       2023-02-27
-author:     J
-catalog:    true
-tags:
-
+layout: mypost
+title: 如何为 Trivy 编写自定义策略
 ---
 
 ## 前言

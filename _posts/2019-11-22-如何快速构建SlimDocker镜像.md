@@ -1,19 +1,7 @@
 ---
-layout:     post
-title:      如何快速构建Slim-Docker镜像
-subtitle:   
-date:       2019-11-22
-author:     J
-catalog:    true
-tags:
-    - Database
-    - Docker
-    - Kubernetes
-    - Linux
-    - Performance
-    - Security
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: 如何快速构建Slim-Docker镜像
+categories: [database, docker, kubernetes, linux, performance, security, storage, troubleshooting]
 ---
 
 众所周知，Docker是容器化应用的主要参与者，并且Docker镜像无处不在。这很棒，因为您可以轻松地并排启动例如不同版本的数据库。将您的应用程序图像合并在一起也非常简单。这是由于大量的基础镜像和简单的定义语言所致。但是，当您在不知道自己在做什么的情况下简单的构建一个应用镜像的时候，就会遇到以下*两个问题*。

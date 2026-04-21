@@ -1,19 +1,7 @@
 ---
-layout:     post
-title:      利用TravisCI同步gcr.io镜像到dockerhub
-subtitle:   
-date:       2019-01-03
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Networking
-    - Security
-    - Storage
+layout: mypost
+title: 利用TravisCI同步gcr.io镜像到dockerhub
+categories: [cloud, devops, docker, kubernetes, linux, networking, security, storage]
 ---
 
 前期准备

@@ -1,21 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes实践——使用 Argo Rollouts 自动化蓝/绿部署
-subtitle:   Automating Blue/Green Deployment with Argo Rollouts
-date:       2022-10-23
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - Storage
+layout: mypost
+title: Kubernetes实践——使用 Argo Rollouts 自动化蓝/绿部署
+categories: [cloud, database, devops, kubernetes, linux, monitoring, networking, performance, security, storage]
 ---
 
 ## 什麼是Argo Rollouts

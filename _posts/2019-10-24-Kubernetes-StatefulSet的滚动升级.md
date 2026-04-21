@@ -1,20 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes StatefulSet的滚动升级
-subtitle:   
-date:       2019-10-24
-author:     J
-catalog:    true
-tags:
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Monitoring
-    - Networking
-    - Performance
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: Kubernetes StatefulSet的滚动升级
+categories: [database, devops, docker, kubernetes, monitoring, networking, performance, storage, troubleshooting]
 ---
 
 ## 扩容/缩容 StatefulSet

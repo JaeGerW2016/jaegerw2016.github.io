@@ -1,24 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes 服务发布之traefik ingress
-subtitle:   
-date:       2019-01-03
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Networking
-    - Performance
-    - Security
-    - ServiceMesh
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: Kubernetes 服务发布之traefik ingress
+categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, security, servicemesh, storage, troubleshooting, ebpf]
 ---
 
 # 介绍

@@ -1,23 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes附加组件可实现更高效的计算
-subtitle:   
-date:       2019-01-03
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: Kubernetes附加组件可实现更高效的计算
+categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, storage, troubleshooting]
 ---
 
 如果说“启动” [Kubernetes](https://akomljen.com/tag/kubernetes/)集群是一项相对容易的工作。部署应用程序以在Kubernetes之上工作需要更多的努力，特别是如果您不熟悉容器。对于使用Docker的人来说，这也是一项相对简单的工作，但当然，您需要掌握Helm等新工具。然后，当你把所有的东西放在一起，当你试图在生产中运行你的应用程序时，你会发现有很多缺失的部分。可能Kubernetes做的不多，对吧？好吧，Kubernetes是可扩展的，并且有一些插件或附件可以让您的生活更轻松。

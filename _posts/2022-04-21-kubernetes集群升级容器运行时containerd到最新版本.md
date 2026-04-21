@@ -1,20 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes集群升级容器运行时containerd到最新版本
-subtitle:   CVE-2022-23648 –来自 containerd CRI 启动的容器的任意主机文件访问及其对 Kubernetes 的影响
-date:       2022-04-21
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - Docker
-    - Kubernetes
-    - Linux
-    - Networking
-    - Security
-    - Storage
-    - eBPF
+layout: mypost
+title: Kubernetes集群升级容器运行时containerd到最新版本
+categories: [cloud, database, docker, kubernetes, linux, networking, security, storage, ebpf]
 ---
 
 # 背景

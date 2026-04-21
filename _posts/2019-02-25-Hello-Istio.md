@@ -1,22 +1,7 @@
 ---
-layout:     post
-title:      Hello Istio
-subtitle:   
-date:       2019-02-25
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Kubernetes
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - ServiceMesh
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: Hello Istio
+categories: [cloud, database, devops, kubernetes, monitoring, networking, performance, security, servicemesh, storage, troubleshooting]
 ---
 
 ## HELLO ISTIO

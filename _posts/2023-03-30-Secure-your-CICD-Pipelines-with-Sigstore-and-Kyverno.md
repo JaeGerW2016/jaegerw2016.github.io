@@ -1,12 +1,6 @@
 ---
-layout:     post
-title:      使用 Sigstore 和 Kyverno 来签名和验证图像保护CI/CD Pipeline
-subtitle:   
-date:       2023-03-30
-author:     J
-catalog:    true
-tags:
-
+layout: mypost
+title: 使用 Sigstore 和 Kyverno 来签名和验证图像保护CI/CD Pipeline
 ---
 
 ## 背景

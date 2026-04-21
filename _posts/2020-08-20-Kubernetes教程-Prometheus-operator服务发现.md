@@ -1,22 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes教程：Prometheus-operator服务发现
-subtitle:   记Kube-Scheduler和Kube-Controller-manager、Kube-Proxy的target发现失败以及监控外部etcd集群
-date:       2020-08-20
-author:     J
-catalog:    true
-tags:
-    - Database
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Security
-    - ServiceMesh
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: Kubernetes教程：Prometheus-operator服务发现
+categories: [database, docker, kubernetes, linux, monitoring, networking, security, servicemesh, storage, troubleshooting, ebpf]
 ---
 
 ## target发现失败

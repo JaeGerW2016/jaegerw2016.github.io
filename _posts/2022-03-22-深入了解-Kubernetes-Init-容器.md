@@ -1,22 +1,7 @@
 ---
-layout:     post
-title:      深入了解 Kubernetes Init 容器
-subtitle:   init 容器是一种具有一些修改的操作行为和规则的容器
-date:       2022-03-11
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: 深入了解 Kubernetes Init 容器
+categories: [cloud, database, docker, kubernetes, linux, monitoring, networking, performance, security, storage, troubleshooting]
 ---
 
 # 深入了解 Kubernetes Init 容器

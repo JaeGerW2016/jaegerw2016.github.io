@@ -1,16 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes Dashboard token失效时间设置
-subtitle:   
-date:       2019-01-03
-author:     J
-catalog:    true
-tags:
-    - DevOps
-    - Kubernetes
-    - Linux
-    - Networking
-    - Security
+layout: mypost
+title: Kubernetes Dashboard token失效时间设置
+categories: [devops, kubernetes, linux, networking, security]
 ---
 
 升级了新版本的Dashboard（这里使用的v1.8.3），使用了较为复杂的双因子登录，正确输入用户名和密码之后还需要Token或者kubeconfig再次认证，保障了系统安全，同时也带来了一些不便。默认的Token失效时间是900秒，也就是15分钟，这意味着你每隔15分钟就要认证一次。

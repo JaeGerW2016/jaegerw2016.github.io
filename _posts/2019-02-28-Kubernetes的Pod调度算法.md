@@ -1,20 +1,7 @@
 ---
-layout:     post
-title:      Kubernetes的Pod调度算法
-subtitle:   
-date:       2019-02-28
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Networking
-    - Performance
-    - Storage
+layout: mypost
+title: Kubernetes的Pod调度算法
+categories: [cloud, database, devops, docker, kubernetes, linux, networking, performance, storage]
 ---
 
 ### Kubernetes的Pod调度算法

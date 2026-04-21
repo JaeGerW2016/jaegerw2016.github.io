@@ -1,12 +1,6 @@
 ---
-layout:     post
-title:      如何在Dockerfile中优雅地激活virtualenv
-subtitle:   
-date:       2023-12-06
-author:     J
-catalog:    true
-tags:
-
+layout: mypost
+title: 如何在Dockerfile中优雅地激活virtualenv
 ---
 
 ## 背景

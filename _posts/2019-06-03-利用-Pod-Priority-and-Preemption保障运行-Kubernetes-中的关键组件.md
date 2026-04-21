@@ -1,19 +1,7 @@
 ---
-layout:     post
-title:      利用 Pod Priority and Preemption保障运行 Kubernetes 中的关键组件
-subtitle:   
-date:       2019-06-03
-author:     J
-catalog:    true
-tags:
-    - Database
-    - DevOps
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Troubleshooting
+layout: mypost
+title: 利用 Pod Priority and Preemption保障运行 Kubernetes 中的关键组件
+categories: [database, devops, kubernetes, linux, monitoring, networking, performance, troubleshooting]
 ---
 
 Kubernets集群内部运行着众多各式各样不同的组件，某些组件会相比其他组件来说更为重要，缺少了这些组件，集群的核心功能或者用户业务将无法得到保障：比如 DNS 组件，当 DNS 组件运行异常，集群内部的 DNS 服务将不可用；又比如CNI网络组件，当网络组件异常，某个节点甚至集群的网络将不可用。

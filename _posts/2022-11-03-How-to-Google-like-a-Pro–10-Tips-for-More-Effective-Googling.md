@@ -1,12 +1,7 @@
 ---
-layout:     post
-title:      如何像专家一样高效使用 Google 搜索
-subtitle:   How to Google like a Pro – 10 Tips for More Effective Googling
-date:       2022-11-03
-author:     J
-catalog:    true
-tags:
-    - Troubleshooting
+layout: mypost
+title: 如何像专家一样高效使用 Google 搜索
+categories: [troubleshooting]
 ---
 
 原文： [How to Google like a Pro – 10 Tips for More Effective Googling](https://www.freecodecamp.org/news/how-to-google-like-a-pro-10-tips-for-effective-googling/)，作者：Soham De Roy

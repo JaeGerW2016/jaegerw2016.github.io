@@ -1,24 +1,7 @@
 ---
-layout:     post
-title:      Prometheus Operator 学习笔记
-subtitle:   
-date:       2019-01-06
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: Prometheus Operator 学习笔记
+categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, performance, security, storage, troubleshooting, ebpf]
 ---
 
 ### 文档说明

@@ -1,20 +1,7 @@
 ---
-layout:     post
-title:      KubernetesDeployment滚动更新机制
-subtitle:   
-date:       2019-09-27
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Kubernetes
-    - Linux
-    - Networking
-    - Performance
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: KubernetesDeployment滚动更新机制
+categories: [cloud, database, devops, kubernetes, linux, networking, performance, storage, troubleshooting]
 ---
 
 ## 摘要

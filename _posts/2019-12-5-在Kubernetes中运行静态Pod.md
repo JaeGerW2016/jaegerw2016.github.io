@@ -1,22 +1,7 @@
 ---
-layout:     post
-title:      在Kubernetes中运行静态Pod
-subtitle:   
-date:       2019-12-05
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: 在Kubernetes中运行静态Pod
+categories: [cloud, database, docker, kubernetes, linux, monitoring, networking, performance, security, troubleshooting, ebpf]
 ---
 
 **静态**Pod是直接有Node节点上的Kubelet进程进行管理，不通过Master节点Apiserver进行生命周期管理。静态Pod不关联任何Replication Controller控制器，它由Kubelet进程自己来监控，Pod崩溃时Kubelet负责重启Pod，但是静态Pod是没有健康检查，而且始终绑定节点Kubelet进程，所以始终运行在同一个节点，没有办法做迁移。

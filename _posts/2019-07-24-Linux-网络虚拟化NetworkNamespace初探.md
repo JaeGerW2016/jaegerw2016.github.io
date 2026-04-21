@@ -1,18 +1,7 @@
 ---
-layout:     post
-title:      Linux 网络虚拟化：Network Namespace 初探
-subtitle:   
-date:       2019-07-24
-author:     J
-catalog:    true
-tags:
-    - Docker
-    - Kubernetes
-    - Linux
-    - Networking
-    - Security
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: Linux 网络虚拟化：Network Namespace 初探
+categories: [docker, kubernetes, linux, networking, security, storage, troubleshooting]
 ---
 
 在本文中我们将尝试理解Linux Network Namespace及相关Linux内核网络设备的概念，以及Docker容器网络模型的部分实现

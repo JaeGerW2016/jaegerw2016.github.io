@@ -1,20 +1,7 @@
 ---
-layout:     post
-title:      etcdHighNumberOfFailedGRPCRequests频繁告警
-subtitle:   
-date:       2019-07-19
-author:     J
-catalog:    true
-tags:
-    - Database
-    - Docker
-    - Kubernetes
-    - Monitoring
-    - Networking
-    - Performance
-    - Security
-    - Storage
-    - Troubleshooting
+layout: mypost
+title: etcdHighNumberOfFailedGRPCRequests频繁告警
+categories: [database, docker, kubernetes, monitoring, networking, performance, security, storage, troubleshooting]
 ---
 
 最近在Slack的prometheus 告警通道经常收到`etcdHighNumberOfFailedGRPCRequests` 这个条告警信息

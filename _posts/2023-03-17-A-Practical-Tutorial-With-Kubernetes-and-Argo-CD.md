@@ -1,23 +1,7 @@
 ---
-layout:     post
-title:      使用Argo CD在Kubernetes部署简单应用
-subtitle:   A Practical Tutorial With Kubernetes and Argo CD
-date:       2023-03-17
-author:     J
-catalog:    true
-tags:
-    - Cloud
-    - Database
-    - DevOps
-    - Docker
-    - Kubernetes
-    - Linux
-    - Monitoring
-    - Networking
-    - Security
-    - Storage
-    - Troubleshooting
-    - eBPF
+layout: mypost
+title: 使用Argo CD在Kubernetes部署简单应用
+categories: [cloud, database, devops, docker, kubernetes, linux, monitoring, networking, security, storage, troubleshooting, ebpf]
 ---
 
 在本文中，我们将探索`Gitops`之Argo CD的功能并使用它来运行一个简单的演示应用程序。

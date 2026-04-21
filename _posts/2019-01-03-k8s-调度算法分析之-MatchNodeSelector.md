@@ -1,13 +1,7 @@
 ---
-layout:     post
-title:      k8s 调度算法分析之 MatchNodeSelector
-subtitle:   
-date:       2019-01-03
-author:     J
-catalog:    true
-tags:
-    - Kubernetes
-    - Troubleshooting
+layout: mypost
+title: k8s 调度算法分析之 MatchNodeSelector
+categories: [kubernetes, troubleshooting]
 ---
 
 一、概述
