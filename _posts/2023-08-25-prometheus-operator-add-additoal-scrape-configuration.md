@@ -1,7 +1,12 @@
 ---
-layout: mypost
-title: Prometheus operator additional scrape configuration 配置
-categories: [Prometheus]
+layout:     post
+title:      Prometheus operator additional scrape configuration 配置
+subtitle:   
+date:       2023-08-25
+author:     J
+catalog:    true
+tags:
+
 ---
 
 ## 背景

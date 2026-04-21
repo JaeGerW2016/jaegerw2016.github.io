@@ -1,7 +1,20 @@
 ---
-title: Kubernetes集群中使用NodeLocal DNSCache
-date: 2019-08-13 11:23
-tag: kubernetes
+layout:     post
+title:      Kubernetes集群中使用NodeLocal DNSCache
+subtitle:   
+date:       2019-08-13
+author:     J
+catalog:    true
+tags:
+    - Database
+    - DevOps
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
 ---
 
 ### 介绍

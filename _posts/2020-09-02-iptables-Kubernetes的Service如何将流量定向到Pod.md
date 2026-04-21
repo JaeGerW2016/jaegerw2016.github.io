@@ -1,15 +1,20 @@
 ---
 layout:     post
 title:      iptables：Kubernetes的Service如何将流量定向到Pod
-subtitle: 	kube-proxy组件如何使用iptables将service流量负载均衡到pod的过程
+subtitle:   kube-proxy组件如何使用iptables将service流量负载均衡到pod的过程
 date:       2020-09-02
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - kubernetes
+    - Cloud
+    - Database
+    - Kubernetes
+    - Linux
+    - Networking
+    - Security
+    - ServiceMesh
+    - Storage
 ---
-
-
 
 为了支持Kubernetes集群的Pod的水平扩展和高可用性，Kubernetes抽象出Service的概念。Service是对一组Pod的抽象，它会根据访问策略（如负载均衡策略）来访问这组Pod。
 

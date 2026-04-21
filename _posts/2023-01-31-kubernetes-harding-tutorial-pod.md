@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:     Kubernetes 安全加固之Pod安全
-subtitle:  Kubernetes Hardening Tutorial Pods
+title:      Kubernetes 安全加固之Pod安全
+subtitle:   Kubernetes Hardening Tutorial Pods
 date:       2023-01-31
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - Kubernetes
+
 ---
 
 ## Pod安全

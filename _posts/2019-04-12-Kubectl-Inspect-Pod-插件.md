@@ -1,8 +1,24 @@
 ---
-title: Kubectl Inspect Pod 插件
-date: 2019-04-12 03:05:59
+layout:     post
+title:      Kubectl Inspect Pod 插件
+subtitle:   
+date:       2019-04-12
+author:     J
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
 ---
+
 虽然目前还没有像标题所示的`kubectl inspect` command，但kubectl现在有一个新重新设计的插件系统，它允许您轻松创建自己的检查命令并让它做任何你想做的事情
 ![](https://upload-images.jianshu.io/upload_images/3481257-f5a85f5654443600.gif?imageMogr2/auto-orient/strip)
 
@@ -141,4 +157,3 @@ status:
   qosClass: BestEffort
 
 ```
-

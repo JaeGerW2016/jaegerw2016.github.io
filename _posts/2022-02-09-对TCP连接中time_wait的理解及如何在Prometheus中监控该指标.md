@@ -1,14 +1,23 @@
 ---
 layout:     post
-title:     对TCP连接中TIME_WAIT的理解及对高并发的调优实践
-subtitle: 	保证ingress其充分发挥高性能的优势
+title:      对TCP连接中TIME_WAIT的理解及对高并发的调优实践
+subtitle:   保证ingress其充分发挥高性能的优势
 date:       2022-02-10
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - Prometheus
-    - Grafana
+    - Cloud
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
+
 最近在给 Gateway API网关做压测，模拟高并发的场景下，TCP连接状态中会出现批量的TIME_WAIT状态的连接
 
 ![1644397008067](https://www.imgsm.com/images/2022/02/10/1644397008067.png)
@@ -160,4 +169,3 @@ data:
  # 参考: https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/#max-worker-connections
  max-worker-connections: "65536"
 ```
-

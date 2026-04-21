@@ -1,8 +1,17 @@
 ---
-title: Kubernetes强制删除Pod、namespace资源
-date: 2019-01-03 04:17:28
+layout:     post
+title:      Kubernetes强制删除Pod、namespace资源
+subtitle:   
+date:       2019-01-03
+author:     J
+catalog:    true
 tags:
+    - Database
+    - Kubernetes
+    - Linux
+    - Storage
 ---
+
 #### Kubernetes中强制删除Pod、namespace
 
 #### 解决方法

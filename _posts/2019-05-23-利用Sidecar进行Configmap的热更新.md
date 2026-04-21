@@ -1,7 +1,25 @@
 ---
-title: 利用Sidecar进行Configmap的热更新
-date: 2019-05-23 22:53:46
-tags: kubernetes
+layout:     post
+title:      利用Sidecar进行Configmap的热更新
+subtitle:   
+date:       2019-05-23
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
 
 ### ConfigMap概览
@@ -277,5 +295,3 @@ https://blog.fleeto.us/post/refresh-cm-with-signal/
 https://k8smeetup.github.io/docs/tasks/configure-pod-container/configure-pod-configmap/
 https://www.kancloud.cn/curder/nginx/96674
 https://linux.die.net/man/1/inotifywait
-
-

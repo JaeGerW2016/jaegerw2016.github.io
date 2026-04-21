@@ -1,7 +1,20 @@
 ---
-title: Kubernets/Docker解决容器内时区不一致
-date: 2019-07-03 17:54:00
-tags: kubernetes
+layout:     post
+title:      Kubernets/Docker解决容器内时区不一致
+subtitle:   
+date:       2019-07-03
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Database
+    - Docker
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Security
+    - Storage
+    - Troubleshooting
 ---
 
 ## 1、背景介绍

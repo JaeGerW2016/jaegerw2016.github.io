@@ -1,13 +1,24 @@
 ---
 layout:     post
-title:     Kubernetes 网络模型——如何使用Bash编写CNI网络插件
-subtitle:  Kubernetes Networking Model and How write your own CNI plugin with Bash
+title:      Kubernetes 网络模型——如何使用Bash编写CNI网络插件
+subtitle:   Kubernetes Networking Model and How write your own CNI plugin with Bash
 date:       2022-12-10
 author:     J
-catalog: true
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
     - Kubernetes
-    - CNI
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
 
 ## Kubernetes 网络模型

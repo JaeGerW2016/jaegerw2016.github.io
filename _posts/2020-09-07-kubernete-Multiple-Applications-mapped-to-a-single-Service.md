@@ -1,12 +1,18 @@
 ---
 layout:     post
-title:     Kubernetes 多组Pod映射到单个svc服务
-subtitle:  Multiple Applications mapped to a single Service
+title:      Kubernetes 多组Pod映射到单个svc服务
+subtitle:   Multiple Applications mapped to a single Service
 date:       2022-09-07
 author:     J
-catalog: true
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - DevOps
     - Kubernetes
+    - Linux
+    - Networking
+    - Security
 ---
 
 # 背景

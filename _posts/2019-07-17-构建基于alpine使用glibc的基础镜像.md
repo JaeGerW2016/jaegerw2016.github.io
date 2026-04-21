@@ -1,8 +1,20 @@
 ---
-title: 构建基于alpine使用gnu libc的基础镜像
-date: 2019-07-17 09:36:44
-tags: docker
+layout:     post
+title:      构建基于alpine使用gnu libc的基础镜像
+subtitle:   
+date:       2019-07-17
+author:     J
+catalog:    true
+tags:
+    - DevOps
+    - Docker
+    - Linux
+    - Security
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
+
 简单介绍一下Alpine版本中的musl libc和gnu libc的设定
 
 ### 背景

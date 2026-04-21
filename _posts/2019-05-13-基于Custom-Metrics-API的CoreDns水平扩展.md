@@ -1,8 +1,26 @@
 ---
-title: 基于Custom Metrics API的CoreDns水平扩展
-date: 2019-05-13 04:33:04
+layout:     post
+title:      基于Custom Metrics API的CoreDns水平扩展
+subtitle:   
+date:       2019-05-13
+author:     J
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
 ---
+
 ## Metrics Server
 
 从Kubernetes 1.8开始，Kubernetes通过Metrics API提供资源使用指标，例如容器CPU和内存使用。这些度量可以由用户直接访问，例如通过使用kubectl top命令，或者由群集中的控制器（例如Horizo​​ntal Pod Autoscaler）使用来进行决策。
@@ -189,6 +207,3 @@ https://github.com/coredns/coredns/tree/master/plugin/metrics
 https://github.com/kubernetes-incubator/metrics-server
 https://github.com/DirectXMan12/k8s-prometheus-adapter
 https://github.com/coreos/prometheus-operator
-
-
-

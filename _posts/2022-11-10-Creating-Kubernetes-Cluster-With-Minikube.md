@@ -1,12 +1,22 @@
 ---
 layout:     post
-title:     使用 Minikube 创建 Kubernetes 集群
-subtitle:  Creating Kubernetes Cluster With Minikube
+title:      使用 Minikube 创建 Kubernetes 集群
+subtitle:   Creating Kubernetes Cluster With Minikube
 date:       2022-11-10
 author:     J
-catalog: true
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
     - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
 ---
 
 ## 什么是 Minikube？

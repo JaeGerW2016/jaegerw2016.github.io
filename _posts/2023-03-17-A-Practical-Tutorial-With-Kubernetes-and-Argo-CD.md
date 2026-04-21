@@ -1,14 +1,25 @@
 ---
 layout:     post
-title:     使用Argo CD在Kubernetes部署简单应用
-subtitle:  A Practical Tutorial With Kubernetes and Argo CD
+title:      使用Argo CD在Kubernetes部署简单应用
+subtitle:   A Practical Tutorial With Kubernetes and Argo CD
 date:       2023-03-17
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - ArgoCD
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
     - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Security
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
+
 在本文中，我们将探索`Gitops`之Argo CD的功能并使用它来运行一个简单的演示应用程序。
 Argo CD 是“用于 Kubernetes 的声明式 GitOps 持续交付工具”。它可以监控您的源存储库状态并自动将更改部署到您的目标Kubernetes集群。
 

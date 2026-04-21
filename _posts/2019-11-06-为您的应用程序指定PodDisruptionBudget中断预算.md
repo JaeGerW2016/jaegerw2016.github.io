@@ -1,7 +1,15 @@
 ---
-title: 为您的应用程序指定PodDisruptionBudget
-date: 2019-11-06 16:53
-tag: kubernetes
+layout:     post
+title:      为您的应用程序指定PodDisruptionBudget
+subtitle:   
+date:       2019-11-06
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Kubernetes
 ---
 
 ## 背景概念

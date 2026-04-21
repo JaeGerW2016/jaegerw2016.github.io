@@ -1,13 +1,20 @@
 ---
 layout:     post
-title:     kubernetes event事件持久化到loki并在Grafana中展示
-subtitle: 	LokiEventCollector组件如何将kube event集群日志持久化
+title:      kubernetes event事件持久化到loki并在Grafana中展示
+subtitle:   LokiEventCollector组件如何将kube event集群日志持久化
 date:       2020-10-12
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - kubernetes
-    - loki
+    - Cloud
+    - Docker
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Performance
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
 
 `Kubernetes` `Event`是`Kubernetes`中的一种资源类型，当其他资源具有状态更改，错误或其他应广播到系统的消息时，会自动创建该Event。尽管没有太多有关`Kubernetes` `Event`的文档，但在调试`Kubernetes`集群中的问题时，它们是宝贵的资源。由于`Kubernetes` Event在设计的时候默认只保留几个小时内的资源信息，所以对它的数据持久化是非常有必要的操作。

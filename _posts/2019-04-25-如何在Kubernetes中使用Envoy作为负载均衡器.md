@@ -1,8 +1,25 @@
 ---
-title: 如何在Kubernetes中使用Envoy作为负载均衡器
-date: 2019-04-25 00:58:45
-tags: Envoy,kubernetes
+layout:     post
+title:      如何在Kubernetes中使用Envoy作为负载均衡器
+subtitle:   
+date:       2019-04-25
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
 ---
+
 在如今高度分布式的世界中，单主机架构越来越多地被多个更小的微服务架构所取代（无论好坏），代理和负载均衡技术似乎有了复兴。除之前经典技术了之外，近年来还出现了几种新的代理技术，这些技术以各种技术实现，通过不同的功能推广自己，例如轻松集成到某些云提供商（“云原生”），高性能和低内存占用，或动态配置。
 可以说两种最流行的“经典”代理技术是[NGINX](https://www.nginx.com/)（C）和[HAProxy](http://www.haproxy.org/)（C），而其中包含的一些新生力量是[Zuul](https://github.com/Netflix/zuul)（Java），[Linkerd](https://linkerd.io/)（Rust），[Traefik](https://traefik.io/)（Go），[Caddy](https://github.com/mholt/caddy)（Go）和[Envoy](https://www.envoyproxy.io/)（C ++）。
 所有这些技术都具有不同的功能集，并且针对某些特定方案或托管环境（例如，Linkerd经过微调以便在Kubernetes中使用）。

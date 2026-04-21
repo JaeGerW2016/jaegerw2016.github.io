@@ -4,12 +4,16 @@ title:      Kubernetes NetworkPolicy 探秘
 subtitle:   了解Kubernete复杂网络策略
 date:       2020-05-07
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - kubernetes
+    - Cloud
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Security
+    - eBPF
 ---
-
-
 
 ### 网络策略
 

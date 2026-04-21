@@ -1,7 +1,12 @@
 ---
-layout: mypost
-title: 使用ebpf的XDP来创建一个简单L4负载均衡
-categories: [ebpf,XDP]
+layout:     post
+title:      使用ebpf的XDP来创建一个简单L4负载均衡
+subtitle:   
+date:       2023-05-16
+author:     J
+catalog:    true
+tags:
+
 ---
 
 ### 什么是 eBPF XDP

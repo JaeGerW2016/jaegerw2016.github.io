@@ -1,12 +1,19 @@
 ---
 layout:     post
-title:     eBPF系列-ebpf map之使用sockmap提升本地socket转发
-subtitle:  Use eBPF map sockmap redir localhost socket
+title:      eBPF系列-ebpf map之使用sockmap提升本地socket转发
+subtitle:   Use eBPF map sockmap redir localhost socket
 date:       2022-11-25
 author:     J
-catalog: true
+catalog:    true
 tags:
+    - Kubernetes
     - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
     - eBPF
 ---
 

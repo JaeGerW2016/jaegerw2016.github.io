@@ -1,7 +1,19 @@
 ---
-title: 在Kubernetes上ConfigMap热更新测试
-date: 2019-01-03 02:46:00
+layout:     post
+title:      在Kubernetes上ConfigMap热更新测试
+subtitle:   
+date:       2019-01-03
+author:     J
+catalog:    true
 tags:
+    - Cloud
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Networking
+    - Storage
+    - eBPF
 ---
 
 ### 文档说明

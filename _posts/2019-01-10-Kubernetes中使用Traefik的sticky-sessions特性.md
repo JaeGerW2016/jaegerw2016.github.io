@@ -1,9 +1,17 @@
 ---
-title: Kubernetes中使用Traefik的sticky sessions特性
-date: 2019-01-10 02:11:03
-tags: kubernetes
+layout:     post
+title:      Kubernetes中使用Traefik的sticky sessions特性
+subtitle:   
+date:       2019-01-10
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Kubernetes
+    - Linux
+    - Networking
+    - Troubleshooting
 ---
-
 
 ### 背景
 在使用Nginx作为前端页面的反向代理时，有时我们需要在服务端为用户的本次访问保存一些临时状态，这种临时状态通常被称为 `session`。当访问压力增大时，常用的办法是开启多个服务端实例，然后使用Nginx一类的反向代理服务器进行负载均衡。然而对于依赖会话与用户进行交互的页面来说，由于负载均衡可能会将同一用户的两次访问分发到不同的服务端上，这样会话就无法正常运作了。而解决这个问题有最常用的两种方法，
@@ -38,4 +46,3 @@ spec:
 [Traefik 官方文档](https://docs.traefik.io/configuration/backends/kubernetes/)
 
 ![image.png](https://upload-images.jianshu.io/upload_images/3481257-6ea901d14c0726bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-

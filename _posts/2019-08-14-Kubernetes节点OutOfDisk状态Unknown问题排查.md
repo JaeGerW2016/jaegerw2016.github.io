@@ -1,10 +1,25 @@
 ---
-title:  Kubernetes 节点OutOfDisk 状态Unknown问题排查
-date: 2019-08-14 10:53
-tag: kubernetes
+layout:     post
+title:      Kubernetes 节点OutOfDisk 状态Unknown问题排查
+subtitle:   
+date:       2019-08-14
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
-
-
 
 ```shell
 内核版本: 4.15.0-54-generic 
@@ -149,4 +164,3 @@ https://kubernetes.io/zh/docs/reference/command-line-tools-reference/kubelet/
 https://github.com/kubernetes/sig-release/blob/master/releases/release-1.9/scalability_validation_report.md
 
 https://github.com/kubernetes/kubernetes/issues/74302
-

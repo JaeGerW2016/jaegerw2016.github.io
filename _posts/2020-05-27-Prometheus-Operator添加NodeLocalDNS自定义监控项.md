@@ -4,12 +4,22 @@ title:      Prometheus-Operator添加NodeLocalDNS自定义监控项
 subtitle:   扩展监控NodeLocalDNS的metrics指标
 date:       2020-05-27
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - kubernetes
+    - Cloud
+    - Database
+    - DevOps
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
-
-
 
 现有的Kubernetes集群使用Prometheus-Operator做监控，它通过Kubernetes的CRD（Custom Resource Definition，自定义资源定义）对Prometheus和Prometheus需要监控的服务进行部署和配置。
 

@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:     如何为 Trivy 编写自定义策略
-subtitle:  How to write custom policies for Trivy
+title:      如何为 Trivy 编写自定义策略
+subtitle:   How to write custom policies for Trivy
 date:       2023-02-27
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - Trivy
-    - Kubernetes
+
 ---
+
 ## 前言
 在之前的文章中[在 Jenkins 中使用 Trivy 进行容器扫描](https://jaegerw2016.github.io/2023/02/20/Container-Scanning-with-Trivy-in-Jenkins/)我们已经了解到Trivy 最基础的扫描镜像安全风险漏洞的功能,其实Trivy的功能远不止这些,今天我们着重来了解下Trivy根据自定义策略来扫描Kubernetes的配置文件.
 

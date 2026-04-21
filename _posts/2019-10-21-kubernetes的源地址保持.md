@@ -1,7 +1,21 @@
 ---
-title: kubernetes的源地址保持sourceIP
-date: 2019-10-21 16:53
-tag: kubernetes
+layout:     post
+title:      kubernetes的源地址保持sourceIP
+subtitle:   
+date:       2019-10-21
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Networking
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
 ---
 
 ## Prerequisites

@@ -1,8 +1,24 @@
 ---
-title: 使用Kubernetes进行零停机滚动更新
-date: 2019-03-07 01:26:15
-tags: kubernetes
+layout:     post
+title:      使用Kubernetes进行零停机滚动更新
+subtitle:   
+date:       2019-03-07
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Networking
+    - Security
+    - ServiceMesh
+    - Troubleshooting
+    - eBPF
 ---
+
 软件世界比以往任何时候都更快。为了保持竞争力，需要尽快推出新的软件版本，而不会中断活跃用户访问，影响用户体验。越来越多企业已将其应用迁移到Kubernetes，而Kubernetes的构建基于生产准备。但是，为了通过Kubernetes实现真正的零停机时间，我们需要采取更多步骤，而不会破坏或丢失任何一个用户的请求
 
 关于如何使用Kubernetes实现零停机时间的系列文章
@@ -200,4 +216,3 @@ https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/
 https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/
 https://blog.sebastian-daschner.com/entries/zero-downtime-updates-kubernetes
 https://github.com/chrismoos/zero-downtime-tutorial
-

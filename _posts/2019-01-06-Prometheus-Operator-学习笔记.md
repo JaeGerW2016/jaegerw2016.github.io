@@ -1,8 +1,26 @@
 ---
-title: Prometheus Operator 学习笔记
-date: 2019-01-06 22:29:29
+layout:     post
+title:      Prometheus Operator 学习笔记
+subtitle:   
+date:       2019-01-06
+author:     J
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
+
 ### 文档说明
 实验环境：kubernetes Version v1.10.9
 网络CNI：fannel

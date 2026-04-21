@@ -1,13 +1,25 @@
 ---
 layout:     post
-title:     Ephemeral Containers容器入门
-subtitle:  Getting Started With Ephemeral Containers
+title:      Ephemeral Containers容器入门
+subtitle:   Getting Started With Ephemeral Containers
 date:       2022-09-20
 author:     J
-catalog: true
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
     - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Security
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
+
 # 背景
 如果您正在关注 Kubernetes 生态社区的最新消息，您可能已经听说过 Ephemeral Containers。如果没有？不要害怕！在这篇博文中，尝试阐明这个新功能很快就会在Kubernetes v1.25版本GA
 

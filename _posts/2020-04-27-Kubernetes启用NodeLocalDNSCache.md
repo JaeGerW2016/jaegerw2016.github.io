@@ -4,12 +4,22 @@ title:      Kubernetes启用Node Local DNS Cache
 subtitle:   解决nf_conntrack race的问题
 date:       2020-04-27
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - kubernetes
+    - Cloud
+    - Database
+    - Docker
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
-
-
 
 [Node Local DNS Cache](https://github.com/kubernetes/enhancements/blob/master/keps/sig-network/20190424-NodeLocalDNS-beta-proposal.md)。这是一款非常酷的软件，它通过将大多数响应缓存在节点本地DNS上来帮助DNS加载，并解决了`Linux conntrack`争用问题，这会导致某些DNS请求出现5s的间歇性延迟。你可以阅读更多有关contrack问题[5S的DNS间歇延迟发布](https://github.com/kubernetes/kubernetes/issues/56903)和[活跃的跟踪连接和DNS查找超时](https://www.weave.works/blog/racy-conntrack-and-dns-lookup-timeouts)
 

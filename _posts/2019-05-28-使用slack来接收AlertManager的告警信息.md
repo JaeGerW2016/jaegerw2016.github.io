@@ -1,8 +1,23 @@
 ---
-title: 使用slack来接收AlertManager的告警信息
-date: 2019-05-28 23:47:30
+layout:     post
+title:      使用slack来接收AlertManager的告警信息
+subtitle:   
+date:       2019-05-28
+author:     J
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - Troubleshooting
+    - eBPF
 ---
+
 在国内，大部分公司的员工目前在办公时用的沟通工具仍是邮件、QQ或者微信，文件会放到共享文件夹，或者用邮件、即时通讯工具来传输。而邮件使用起来比较费劲，没有即时性，而QQ和微信会让我们把生活与工作混在一起，降低做事效率，很多人在工作的时候还经常刷朋友圈、看QQ空间，这都是不好的现象。国外的现象跟国内也是大同小异。
 
 Slack较早的发现了这个现象，瞄准了企业内部沟通协作这一空白点，做出了一款提高企业员工内部协作效率的软件。它将工作中所有信息的接口统统整合在一起，从而提高内部协作的效率，提高信息的利用率。

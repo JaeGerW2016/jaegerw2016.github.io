@@ -1,12 +1,17 @@
 ---
 layout:     post
-title:     kubernetes证书手动续期操作
-subtitle:  Kubernetes Certificate Manual Renewal Operation
+title:      kubernetes证书手动续期操作
+subtitle:   Kubernetes Certificate Manual Renewal Operation
 date:       2022-09-21
 author:     J
-catalog: true
+catalog:    true
 tags:
+    - Database
+    - Docker
     - Kubernetes
+    - Networking
+    - Security
+    - ServiceMesh
 ---
 
 Kubernetes证书手动续期操作

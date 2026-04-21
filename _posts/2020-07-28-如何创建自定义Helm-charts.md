@@ -4,13 +4,21 @@ title:      如何创建自定义Helm charts
 subtitle:   为OpenProject创建一个具有数据持久性和外部数据库的自定义Helm charts
 date:       2020-07-28
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - kubernetes	
-    - Helm
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
 ---
-
-
 
 #### TL；DR 摘要标题
 

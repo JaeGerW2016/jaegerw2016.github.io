@@ -1,8 +1,15 @@
 ---
-title: k8s 调度算法分析之 MatchNodeSelector
-date: 2019-01-03 02:13:32
+layout:     post
+title:      k8s 调度算法分析之 MatchNodeSelector
+subtitle:   
+date:       2019-01-03
+author:     J
+catalog:    true
 tags:
+    - Kubernetes
+    - Troubleshooting
 ---
+
 一、概述
 之前的文章有简要分析 k8s 的调度过程，主要就是
 1. 节点筛选（选取可用的节点）

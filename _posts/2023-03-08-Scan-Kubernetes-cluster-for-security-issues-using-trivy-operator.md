@@ -1,14 +1,26 @@
 ---
 layout:     post
-title:     使用Trivy Operator 扫描Kubernetes集群安全
-subtitle:  Scan Kubernetes cluster for security issues using trivy operator
+title:      使用Trivy Operator 扫描Kubernetes集群安全
+subtitle:   Scan Kubernetes cluster for security issues using trivy operator
 date:       2023-03-08
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - Trivy
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
     - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
 ---
+
 ## 前言
 在之前的文章中我们讨论了如何在`jenkins`的`CI/CD`流程的`Pipeline`中去集成`Trivy`以及如何给`Trivy`编写自定义策略来工作,那我们今天就来尝试下用`Trivy Operator`给`Kubernetes`集群来做一次安全扫描,并输出相应的`Grafana`图表
 

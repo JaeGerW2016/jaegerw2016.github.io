@@ -1,8 +1,25 @@
 ---
-title: K8S基于RBAC认证安装配置CoreDNS
-date: 2019-01-03 02:36:44
+layout:     post
+title:      K8S基于RBAC认证安装配置CoreDNS
+subtitle:   
+date:       2019-01-03
+author:     J
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Security
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
+
 ###文档说明
 实验环境：kubernetes Version v1.9.6
 网络CNI：fannel
@@ -97,4 +114,3 @@ https://github.com/coredns/coredns/issues/2087
 https://zhengyinyong.com/coredns-basis.html
 http://johng.cn/minikube-fatal-pluginloop-seen/
 https://kubernetes.io/docs/setup/independent/troubleshooting-kubeadm/#coredns-pods-have-crashloopbackoff-or-error-state
-

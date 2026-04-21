@@ -1,8 +1,22 @@
 ---
-title: Prometheus Operator 学习笔记（二）Service Endpoints 重置问题
-date: 2019-01-07 02:24:10
+layout:     post
+title:      Prometheus Operator 学习笔记（二）Service Endpoints 重置问题
+subtitle:   
+date:       2019-01-07
+author:     J
+catalog:    true
 tags:
+    - Database
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
+
 ### 文档说明
 实验环境：kubernetes Version v1.10.9
 网络CNI：fannel

@@ -1,7 +1,19 @@
 ---
-title: 利用TravisCI同步gcr.io镜像到dockerhub
-date: 2019-01-03 02:53:08
+layout:     post
+title:      利用TravisCI同步gcr.io镜像到dockerhub
+subtitle:   
+date:       2019-01-03
+author:     J
+catalog:    true
 tags:
+    - Cloud
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Networking
+    - Security
+    - Storage
 ---
 
 前期准备
@@ -342,7 +354,3 @@ docker pull gcr.io/google-containers/federation-controller-manager-arm64:v1.3.1-
 docker pull mirrorgcrio/federation-controller-manager-arm64:v1.3.1-beta.1
 
 ```
-
-
-
-

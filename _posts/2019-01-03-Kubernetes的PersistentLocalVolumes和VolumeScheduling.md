@@ -1,7 +1,21 @@
 ---
-title: Kubernetes的PersistentLocalVolumes和VolumeScheduling
-date: 2019-01-03 02:48:05
+layout:     post
+title:      Kubernetes的PersistentLocalVolumes和VolumeScheduling
+subtitle:   
+date:       2019-01-03
+author:     J
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
 ---
 
 ### 文档说明
@@ -127,4 +141,3 @@ http://dockone.io/article/5260
 https://blog.zhoulouzi.com/2018/03/kubernetes-local/
 https://www.kubernetes.org.cn/2280.html?tdsourcetag=s_pctim_aiomsg
 https://kubernetes.io/docs/concepts/storage/volumes/#local
-

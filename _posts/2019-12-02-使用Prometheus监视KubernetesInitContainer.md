@@ -1,8 +1,20 @@
 ---
-title: 使用Prometheus监视KubernetesInitContainer
-date: 2019-12-02 12:23
-tag: kubernetes
+layout:     post
+title:      使用Prometheus监视KubernetesInitContainer
+subtitle:   
+date:       2019-12-02
+author:     J
+catalog:    true
+tags:
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Monitoring
+    - Performance
+    - Storage
+    - Troubleshooting
 ---
+
 Kubernetes InitContainers是在容器启动之前运行任意代码的一种简便方法。它可以确保在启动和运行应用程序之前满足某些前提条件。
 
 但是InitContainers 也有其局限性，如果Crashloop永远不会重新运行InitContainers，InitContainers仅在pod创建时运行，如果pod中的常规容器死亡并重新启动，则只需重新启动它们即可。不需要运行init容器，因为emptydir卷与pod共享相同的生命周期，只要pod继续存在。
@@ -43,4 +55,3 @@ groups:
           summary: '{{ $labels.container }} init failed'
           description: '{{ $labels.container }} has not completed init containers with the reason {{ $labels.reason }}'
 ```
-

@@ -1,14 +1,20 @@
 ---
 layout:     post
-title:     Openssl 在Ubuntu 22.04上升级报错
-subtitle:  An Issue with OpenSSL Upgrade on Ubuntu 22.04
+title:      Openssl 在Ubuntu 22.04上升级报错
+subtitle:   An Issue with OpenSSL Upgrade on Ubuntu 22.04
 date:       2022-11-10
 author:     J
-catalog: true
+catalog:    true
 tags:
+    - DevOps
+    - Kubernetes
     - Linux
+    - Networking
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
 ---
-
 
 ## 背景
 

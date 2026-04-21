@@ -1,8 +1,14 @@
 ---
-layout: mypost
-title: 如何使用Docker Buildx构建多平台架构镜像
-categories: [Container，Docker]
+layout:     post
+title:      如何使用Docker Buildx构建多平台架构镜像
+subtitle:   
+date:       2023-07-18
+author:     J
+catalog:    true
+tags:
+
 ---
+
 ## 背景
 Docker作为容器管理和应用容器化的重要工具，随着现在应用容器化的程度越来越高，我们在享受其提供的便捷的方式来打包和部署应用程序。但是Apple的M1和M2芯片的在基于Arm架构发展和亚马逊也将发展基于 AWS Graviton2 Arm 架构处理器，对于客户在 AWS 上构建基于 Arm 的原生应用程序，拥有了更加丰富的选择，同时为在 Amazon EC2 中运行的工作负载提供了出色的性价比。
 

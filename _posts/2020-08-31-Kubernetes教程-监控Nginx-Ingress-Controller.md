@@ -2,12 +2,18 @@
 layout:     post
 title:      Kubernetes教程：如何监控Nginx Ingress Controller的Metrics指标
 subtitle:   配置集群现有Nginx Ingress Controller及Prometheus operator
-date:       2020-08-31 
+date:       2020-08-31
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - kubernetes
-    - Prometheus
+    - Cloud
+    - DevOps
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
 ---
 
 `Ingress` 是从`Kubernetes`集群外部访问集群内部服务的入口。你可以在`Ingress`配置中提供外部可访问的URL、负载均衡、SSL、基于名称的虚拟主机等。

@@ -1,7 +1,20 @@
 ---
-title: etcdHighNumberOfFailedGRPCRequests频繁告警
-date: 2019-07-19 11:13
-tag: kubernetes,prometheus
+layout:     post
+title:      etcdHighNumberOfFailedGRPCRequests频繁告警
+subtitle:   
+date:       2019-07-19
+author:     J
+catalog:    true
+tags:
+    - Database
+    - Docker
+    - Kubernetes
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - Storage
+    - Troubleshooting
 ---
 
 最近在Slack的prometheus 告警通道经常收到`etcdHighNumberOfFailedGRPCRequests` 这个条告警信息
@@ -65,5 +78,3 @@ https://github.com/openshift/cluster-monitoring-operator/pull/340/files#diff-1
 ```shell
 root@k8s-master-1:~/k8s_manifests/helm-prometheus-operator# helm upgrade prometheus-operator .
 ```
-
-

@@ -1,7 +1,12 @@
 ---
-layout: mypost
-title: Kubernetes NodeLocalDNS loop 环形循环导致Pod异常重启
-categories: [Kubernetes, coredns, NodeLocalDNS]
+layout:     post
+title:      Kubernetes NodeLocalDNS loop 环形循环导致Pod异常重启
+subtitle:   
+date:       2023-11-15
+author:     J
+catalog:    true
+tags:
+
 ---
 
 ## 背景
@@ -121,9 +126,3 @@ Also note, existing records will be purged from the /etc/resolv.conf, including 
 - 对于正在运行的集群来说，如果你不需要Node去解析kubernetes内部域名服务的，那我们首要的就是去恢复Node的`/etc/resolv.conf`中的默认配置，然后针对CoreDNS和NodelocalDNS的configmap中对于loop的插件的禁用
 - 对于正在运行的集群，你需要Node能解析kubernetes内部域名服务的，那就需要修改coreDNS的configmap中`. forward`配置指向上游DNS服务器,NodeLocalDNS的configmap的`.:53`中`forward . 8.8.8.8 8.8.4.4`，而不是`/etc/resolv.conf`
 - 对于需要新建的集群来说，需要我们指定`upstream_dns_server` 为一个非空列表即可。
-
-
-
-
-
-

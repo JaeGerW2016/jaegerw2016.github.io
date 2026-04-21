@@ -1,8 +1,24 @@
 ---
-title: 在Kubernetes上建Redis Cluster集群
-date: 2019-01-03 02:37:45
+layout:     post
+title:      在Kubernetes上建Redis Cluster集群
+subtitle:   
+date:       2019-01-03
+author:     J
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
+
 ###文档说明
 实验环境：kubernetes Version v1.9.6
 网络CNI：fannel

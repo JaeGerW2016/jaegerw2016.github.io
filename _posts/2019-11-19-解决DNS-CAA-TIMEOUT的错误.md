@@ -1,7 +1,17 @@
 ---
-title: letsencrypt-auto自动续期报错
-date: 2019-11-19 17:23
-tag: cerbot
+layout:     post
+title:      letsencrypt-auto自动续期报错
+subtitle:   
+date:       2019-11-19
+author:     J
+catalog:    true
+tags:
+    - Kubernetes
+    - Linux
+    - Networking
+    - Security
+    - Storage
+    - Troubleshooting
 ---
 
 昨天使用**letsencrypt-auto**续期证书，输入`letsencrypt-auto renew`，没出现预期的“Congratulations, all renewals succeeded.”，而是意外的**“DNS problem: query timed out looking up CAA for jaeger.tk”**。咦，怎么突然就出错了呢？
@@ -112,4 +122,3 @@ jaeger.tk.		299	IN	SOA	ns01.freenom.com. soa.freenom.com. 1572417286 10800 3600 
 0 0 1 * * dig jaeger.tk type257 >/dev/null 2>&1
 0 0 1 * * /opt/letsencrypt/letsencrypt-auto renew >/dev/null 2>&1
 ```
-

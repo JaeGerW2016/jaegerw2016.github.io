@@ -1,8 +1,22 @@
 ---
-title: Kubernetes的Pod调度算法
-date: 2019-02-28 02:20:46
-tags: kubernetes
+layout:     post
+title:      Kubernetes的Pod调度算法
+subtitle:   
+date:       2019-02-28
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Storage
 ---
+
 ### Kubernetes的Pod调度算法
 
 在本文档中，解释了如何为Pod选择节点的算法。在选择Pod的目标节点之前有两个步骤。第一步是过滤所有节点（预选），第二步是对剩余节点进行排名（优选），以找到最适合Pod的节点。

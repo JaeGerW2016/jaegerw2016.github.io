@@ -4,9 +4,16 @@ title:      Linux OOM Killer打分机制
 subtitle:   OOM Killer如何选择杀死哪个进程
 date:       2020-06-24
 author:     J
-catalog: true
+catalog:    true
 tags:
+    - Database
     - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - Storage
+    - Troubleshooting
 ---
 
 当您的Linux机器内存**不足时**，内核会调用内存**OOM Killer**来释放一些内存。在运行大量内存密集型进程的服务器上经常会遇到这种情况。
@@ -124,4 +131,3 @@ root@v2ryvps:/tmp# bash display_oom_score.sh
 这个示例可以看出目前`oom_score` 分数最高是`v2ray pid:28445`进程，它的`oom_scoreAdj`为0 `oom_Adj`也为0
 
 说明当这个vps的内存使用量不足时会优先把v2ray进程杀死来释放相应的内存，还有一个现象就是sshd 进程具有比较特殊的地位，它的`oom_scoreAdj`为-1000 `oom_Adj`为-17  说明`sshd`进程永远不能被OOM Killer杀死
-

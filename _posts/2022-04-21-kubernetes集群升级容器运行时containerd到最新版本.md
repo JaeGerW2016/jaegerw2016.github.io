@@ -1,13 +1,20 @@
 ---
 layout:     post
-title:     Kubernetes集群升级容器运行时containerd到最新版本
-subtitle:  CVE-2022-23648 –来自 containerd CRI 启动的容器的任意主机文件访问及其对 Kubernetes 的影响
+title:      Kubernetes集群升级容器运行时containerd到最新版本
+subtitle:   CVE-2022-23648 –来自 containerd CRI 启动的容器的任意主机文件访问及其对 Kubernetes 的影响
 date:       2022-04-21
 author:     J
-catalog: true
+catalog:    true
 tags:
-    - Containerd
+    - Cloud
+    - Database
+    - Docker
     - Kubernetes
+    - Linux
+    - Networking
+    - Security
+    - Storage
+    - eBPF
 ---
 
 # 背景
@@ -78,4 +85,3 @@ node3   Ready    <none>                 344d   v1.20.6   192.168.2.12   <none>  
 node4   Ready    <none>                 344d   v1.20.6   192.168.2.13   <none>        Ubuntu 18.04.4 LTS   4.15.0-175-generic   containerd://1.4.13
 
 ```
-

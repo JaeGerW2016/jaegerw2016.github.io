@@ -1,8 +1,14 @@
 ---
-layout: mypost
-title: 使用 Sigstore 和 Kyverno 来签名和验证图像保护CI/CD Pipeline
-categories: [Sigstore, Kyverno]
+layout:     post
+title:      使用 Sigstore 和 Kyverno 来签名和验证图像保护CI/CD Pipeline
+subtitle:   
+date:       2023-03-30
+author:     J
+catalog:    true
+tags:
+
 ---
+
 ## 背景
 随着云原生和容器应用交付的兴起，我们如何通过确保我们在 Kubernetes 集群上运行的容器镜像是可信的,来提高软件在软件开发周期中的供应链的安全性？我们可以通过给容器镜像添加数字签名来做到这一点。
 

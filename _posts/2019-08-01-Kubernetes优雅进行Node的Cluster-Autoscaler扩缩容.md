@@ -1,7 +1,22 @@
 ---
-title: Kubernetes优雅进行Node的Cluster-Autoscaler扩缩容
-date: 2019-08-01 16:23
-tag: Kubernetes
+layout:     post
+title:      Kubernetes优雅进行Node的Cluster-Autoscaler扩缩容
+subtitle:   
+date:       2019-08-01
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Networking
+    - Performance
+    - Security
+    - Troubleshooting
+    - eBPF
 ---
 
 # Kubernetes优雅进行Node的Cluster-Autoscaler扩缩容

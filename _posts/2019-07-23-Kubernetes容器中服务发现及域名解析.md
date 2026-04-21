@@ -1,7 +1,24 @@
 ---
-title: Kubernetes容器中服务发现及域名解析
-date: 2019-07-23 09:53
-tag: kubernetes
+layout:     post
+title:      Kubernetes容器中服务发现及域名解析
+subtitle:   
+date:       2019-07-23
+author:     J
+catalog:    true
+tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
 
 在 Kubernetes 中，服务发现有几种方式：
@@ -254,4 +271,3 @@ cache [TTL] [ZONES...]
 ```
 
 `cache 30` 表示将记录缓存30秒 缓存的**ZONES**区域如果为空，则为所有区域启用缓存
-

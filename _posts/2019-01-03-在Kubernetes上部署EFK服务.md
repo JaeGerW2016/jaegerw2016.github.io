@@ -1,7 +1,25 @@
 ---
-title: 在Kubernetes上部署EFK服务
-date: 2019-01-03 02:39:44
+layout:     post
+title:      在Kubernetes上部署EFK服务
+subtitle:   
+date:       2019-01-03
+author:     J
+catalog:    true
 tags:
+    - Cloud
+    - Database
+    - DevOps
+    - Docker
+    - Kubernetes
+    - Linux
+    - Monitoring
+    - Networking
+    - Performance
+    - Security
+    - ServiceMesh
+    - Storage
+    - Troubleshooting
+    - eBPF
 ---
 
 ### 文档说明
@@ -796,4 +814,3 @@ https://github.com/gjmzj/kubeasz/blob/master/docs/guide/efk.md
 https://stackoverrun.com/cn/q/11471288
 https://jimmysong.io/kubernetes-handbook/practice/efk-addon-installation.html
 https://github.com/anjia0532/gcr.io_mirror
-
